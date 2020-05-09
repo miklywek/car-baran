@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap'); 
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    font-family: 'PT Mono', monospace;
+}
+
+header nav .logo {
+    display: flex;
+    justify-content: flex-start;
+    width="00"; }
+
+header nav .menu a {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    color: rgba(18, 47, 53, 0.863);
+    text-decoration: none;
+    font-size: 50px;
+}
+
+div li {
+    list-style: none;
+}
