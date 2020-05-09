@@ -18,17 +18,33 @@ header nav {
 header nav .logo {
     display: flex;
     justify-content: flex-start;
-    width="00"; }
+    width: "600"; }
 
-header nav .menu a {
+header nav .menu li a {
     display: flex;
     justify-content: center;
-    padding: 0;
     color: rgba(18, 47, 53, 0.863);
     text-decoration: none;
     font-size: 50px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 5px;
 }
 
 div li {
     list-style: none;
+}
+@media (min-width: 500px) {
+    header nav {
+        display: flex;
+    }
+    header .menu {
+        flex: 1;
+    }
+}
+header .banner {
+    background-image: url(../img/title.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 480px;
 }
