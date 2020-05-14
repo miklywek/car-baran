@@ -77,8 +77,9 @@ main .diagnostic
     font-size: 95%;
     text-transform: uppercase;
     display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
+    justify-content: space-around;
+    color: rgba(18, 47, 53, 0.863);
+    font-size: 2rem;
 }
 main section .our-works{
     font-size: 3rem;
