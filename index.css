@@ -11,7 +11,7 @@ header nav {
     padding: 50px 0;
     align-items: center;
     display: grid;
-    grid-template-columns: 3fr 7fr;
+    grid-template-columns: 2fr 8fr;
     font-family: 'PT Mono', monospace;
 }
 
@@ -46,5 +46,65 @@ header .banner {
     background-image: url(../img/title.jpg);
     background-position: center;
     background-size: cover;
-    min-height: 480px;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+}
+header .banner .title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color:white;
+    font-family: 'PT Mono', monospace;
+}
+main .product {
+    font-size: 3rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-family: 'PT Mono', monospace;
+    color: rgba(18, 47, 53, 0.863);
+
+}
+main .logoservice{
+    width: 980px;
+    ;
+}
+main .diagnostic
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'PT Mono', monospace;
+    font-size: 95%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+main section .our-works{
+    font-size: 3rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-family: 'PT Mono', monospace;
+    color: rgba(18, 47, 53, 0.863);
+    margin-top: 50px;
+}
+
+main section .firs-work {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+footer .our-contacts{font-size: 1rem;
+    text-transform: uppercase;
+    
+    font-family: 'PT Mono', monospace;
+    color: rgba(18, 47, 53, 0.863);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
 }
